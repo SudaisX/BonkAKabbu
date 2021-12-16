@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/sudai/Downloads/project_1/project_1/project_1.runs/synth_1'
+HD_PWD='C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -1,0 +1,1780 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 30860
+License: Customer
+
+Current time: 	Thu Dec 16 11:23:55 PKT 2021
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1600x900
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	X:/xilinix/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	X:/xilinix/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	sudai
+User home directory: C:/Users/sudai
+User working directory: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: X:/xilinix/Vivado
+HDI_APPROOT: X:/xilinix/Vivado/2020.1
+RDI_DATADIR: X:/xilinix/Vivado/2020.1/data
+RDI_BINDIR: X:/xilinix/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/sudai/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/sudai/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/sudai/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	X:/xilinix/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/vivado.log
+Vivado journal file location: 	C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/vivado.jou
+Engine tmp dir: 	C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/.Xil/Vivado-30860-Sudais-Thinkpad
+
+Xilinx Environment Variables
+----------------------------
+XILINX: X:/xilinix/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: X:/xilinix/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: X:/xilinix/Vivado/2020.1
+XILINX_VIVADO: X:/xilinix/Vivado/2020.1
+XILINX_VIVADO_HLS: X:/xilinix/Vivado/2020.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,015 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  2246 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\sudai\OneDrive - Habib University\University\Fall 21\Digital Logic Design\BonkAKabbu\project_1.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu' 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,015 MB. GUI used memory: 50 MB. Current time: 12/16/21, 11:23:56 AM PKT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu' INFO: [Project 1-313] Project file moved from 'C:/Users/sudai/Downloads/project_1/project_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'X:/xilinix/Vivado/2020.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 66 MB (+67035kb) [00:00:32]
+// [Engine Memory]: 1,015 MB (+912910kb) [00:00:32]
+// [GUI Memory]: 84 MB (+15372kb) [00:00:33]
+// [GUI Memory]: 108 MB (+20720kb) [00:00:34]
+// WARNING: HEventQueue.dispatchEvent() is taking  6746 ms.
+// Project name: project_1; location: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:12 . Memory (MB): peak = 1025.160 ; gain = 0.000 
+dismissDialog("Open Project"); // bz (cs)
+// WARNING: updateGUI() is taking  2484 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2575 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5407 ms. Increasing delay to 3000 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (J, cs) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bz (cs):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  2574 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// 'Q' command handler elapsed time: 3 seconds
+dismissDialog("Open Hardware Manager"); // bz (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (ds, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bz (cs):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2020.1   **** Build date : May 27 2020 at 20:24:38     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  Warning: Cannot create '3000:arm' GDB server: An attempt was made to access a socket in a way forbidden by its access permissions  
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 467ms to process. Increasing delay to 2000 ms.
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ****** Xilinx cs_server v2020.1.0   **** Build date : May 14 2020-06:10:29     ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 1025.160 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  12223 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3051A 
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2163.828 ; gain = 1138.668 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 73 MB. Current time: 12/16/21, 11:24:54 AM PKT
+// WARNING: HEventQueue.dispatchEvent() is taking  1405 ms.
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 1,523 MB (+478964kb) [00:01:24]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 29 seconds
+dismissDialog("Auto Connect"); // bz (cs)
+// [GUI Memory]: 126 MB (+13283kb) [00:02:00]
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3051A 
+// n (cs): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6799 ms. Increasing delay to 4000 ms.
+// Elapsed time: 895 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cs)
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1311 ms.
+// 'h' command handler elapsed time: 3 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (J, cs) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (J, cs) - Node
+// PAPropertyPanels.initPanels (main_menu.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevelmodule (main_menu.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevelmodule (main_menu.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("main_menu.v", 137, 288); // bP (w, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  4563 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 733 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1652 ms. Increasing delay to 4956 ms.
+// Elapsed time: 522 seconds
+selectCodeEditor("main_menu.v", 475, 261); // bP (w, cs)
+selectCodeEditor("main_menu.v", 480, 245); // bP (w, cs)
+selectCodeEditor("main_menu.v", 488, 257); // bP (w, cs)
+selectCodeEditor("main_menu.v", 488, 252); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("main_menu.v", 513, 150); // bP (w, cs)
+selectCodeEditor("main_menu.v", 203, 267); // bP (w, cs)
+selectCodeEditor("main_menu.v", 201, 267, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 199, 266); // bP (w, cs)
+selectCodeEditor("main_menu.v", 199, 266); // bP (w, cs)
+selectCodeEditor("main_menu.v", 887, 269); // bP (w, cs)
+selectCodeEditor("main_menu.v", 901, 267); // bP (w, cs)
+selectCodeEditor("main_menu.v", 41, 281); // bP (w, cs)
+typeControlKey(null, null, 'z');
+selectCodeEditor("main_menu.v", 84, 280); // bP (w, cs)
+selectCodeEditor("main_menu.v", 285, 329); // bP (w, cs)
+selectCodeEditor("main_menu.v", 585, 228); // bP (w, cs)
+selectCodeEditor("main_menu.v", 110, 233); // bP (w, cs)
+selectCodeEditor("main_menu.v", 112, 262); // bP (w, cs)
+selectCodeEditor("main_menu.v", 815, 196); // bP (w, cs)
+selectCodeEditor("main_menu.v", 324, 154); // bP (w, cs)
+selectCodeEditor("main_menu.v", 280, 180); // bP (w, cs)
+selectCodeEditor("main_menu.v", 258, 156); // bP (w, cs)
+selectCodeEditor("main_menu.v", 199, 171); // bP (w, cs)
+selectCodeEditor("main_menu.v", 210, 163); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("main_menu.v", 216, 162); // bP (w, cs)
+selectCodeEditor("main_menu.v", 323, 166); // bP (w, cs)
+selectCodeEditor("main_menu.v", 443, 161); // bP (w, cs)
+selectCodeEditor("main_menu.v", 438, 160); // bP (w, cs)
+selectCodeEditor("main_menu.v", 445, 160); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("main_menu.v", 550, 163); // bP (w, cs)
+selectCodeEditor("main_menu.v", 555, 163); // bP (w, cs)
+selectCodeEditor("main_menu.v", 577, 141); // bP (w, cs)
+selectCodeEditor("main_menu.v", 573, 183); // bP (w, cs)
+selectCodeEditor("main_menu.v", 566, 153); // bP (w, cs)
+selectCodeEditor("main_menu.v", 436, 161); // bP (w, cs)
+selectCodeEditor("main_menu.v", 440, 162, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 439, 162); // bP (w, cs)
+selectCodeEditor("main_menu.v", 547, 160); // bP (w, cs)
+selectCodeEditor("main_menu.v", 555, 162); // bP (w, cs)
+selectCodeEditor("main_menu.v", 556, 162, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 193, 203); // bP (w, cs)
+selectCodeEditor("main_menu.v", 193, 203, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 300, 199); // bP (w, cs)
+selectCodeEditor("main_menu.v", 300, 199, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 432, 195); // bP (w, cs)
+selectCodeEditor("main_menu.v", 432, 196, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("main_menu.v", 538, 192); // bP (w, cs)
+selectCodeEditor("main_menu.v", 538, 192, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 305, 202); // bP (w, cs)
+selectCodeEditor("main_menu.v", 305, 202, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 389, 268); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("main_menu.v", 186, 219); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 6, false); // u (J, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'toplevelmodule' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj toplevelmodule_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto a52d60e305b84f8ebfbad2697196fc56 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot toplevelmodule_behav xil_defaultlib.toplevelmodule xil_defaultlib.glbl -log elaborate.log" 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+selectButton("OptionPane.button", "Yes"); // JButton (v, B)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2247.738 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-344] 'run_program' was cancelled INFO: [Vivado 12-5357] 'elaborate' step aborted 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 2247.738 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-344] 'launch_simulation' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// 'd' command handler elapsed time: 10 seconds
+dismissDialog("Run Simulation"); // e (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 10, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cs): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bz (cs):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Thu Dec 16 11:52:39 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Completed: addNotify
+// Elapsed time: 104 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bz (cs):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Thu Dec 16 11:54:25 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 80 MB. Current time: 12/16/21, 11:54:55 AM PKT
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  1911 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2363 ms. Increasing delay to 5000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 136 MB (+2930kb) [00:32:41]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Completed: addNotify
+// Elapsed time: 193 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ag (cs)
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Dec 16 11:57:41 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4943 ms. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1027 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 74 MB. Current time: 12/16/21, 12:24:56 PM PKT
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 1907 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// WARNING: HEventQueue.dispatchEvent() is taking  1061 ms.
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+// Elapsed time: 11 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (ds, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bz (cs):  Auto Connect : addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 9792 ms. Increasing delay to 7000 ms.
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 INFO: [Labtools 27-3414] Connected to existing cs_server. 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF3051A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bz (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// PAPropertyPanels.initPanels (xc7a35t_0) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+selectCodeEditor("main_menu.v", 246, 180); // bP (w, cs)
+selectCodeEditor("main_menu.v", 358, 176); // bP (w, cs)
+selectCodeEditor("main_menu.v", 460, 234); // bP (w, cs)
+// Elapsed time: 25 seconds
+selectCodeEditor("main_menu.v", 72, 147); // bP (w, cs)
+selectCodeEditor("main_menu.v", 69, 156); // bP (w, cs)
+selectCodeEditor("main_menu.v", 70, 160); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3051A 
+// n (cs): Close Hardware Target: addNotify
+// TclEventType: HW_SERVER_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 75 MB. Current time: 12/16/21, 12:54:56 PM PKT
+// Elapsed time: 1858 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cs)
+selectCodeEditor("main_menu.v", 329, 136); // bP (w, cs)
+selectCodeEditor("main_menu.v", 397, 206); // bP (w, cs)
+selectCodeEditor("main_menu.v", 660, 166); // bP (w, cs)
+selectCodeEditor("main_menu.v", 660, 166, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 662, 166); // bP (w, cs)
+selectCodeEditor("main_menu.v", 662, 166); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("main_menu.v", 201, 158); // bP (w, cs)
+selectCodeEditor("main_menu.v", 192, 231); // bP (w, cs)
+selectCodeEditor("main_menu.v", 304, 230); // bP (w, cs)
+// Elapsed time: 12 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("main_menu.v", 513, 155); // bP (w, cs)
+selectCodeEditor("main_menu.v", 541, 146); // bP (w, cs)
+selectCodeEditor("main_menu.v", 564, 176); // bP (w, cs)
+selectCodeEditor("main_menu.v", 398, 161); // bP (w, cs)
+selectCodeEditor("main_menu.v", 390, 161); // bP (w, cs)
+selectCodeEditor("main_menu.v", 658, 164); // bP (w, cs)
+// Elapsed time: 16 seconds
+selectCodeEditor("main_menu.v", 442, 164); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 683, 162); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 696, 71); // bP (w, cs)
+selectCodeEditor("main_menu.v", 695, 68); // bP (w, cs)
+selectCodeEditor("main_menu.v", 691, 59); // bP (w, cs)
+// Elapsed time: 17 seconds
+selectCodeEditor("main_menu.v", 850, 64); // bP (w, cs)
+selectCodeEditor("main_menu.v", 340, 96); // bP (w, cs)
+selectCodeEditor("main_menu.v", 662, 77); // bP (w, cs)
+selectCodeEditor("main_menu.v", 716, 219); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("main_menu.v", 716, 219); // bP (w, cs)
+selectCodeEditor("main_menu.v", 648, 69); // bP (w, cs)
+selectCodeEditor("main_menu.v", 147, 82); // bP (w, cs)
+selectCodeEditor("main_menu.v", 110, 82); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("main_menu.v", 106, 161); // bP (w, cs)
+// Elapsed time: 21 seconds
+selectCodeEditor("main_menu.v", 745, 106); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("main_menu.v", 80, 110); // bP (w, cs)
+selectCodeEditor("main_menu.v", 148, 140); // bP (w, cs)
+selectCodeEditor("main_menu.v", 122, 114); // bP (w, cs)
+selectCodeEditor("main_menu.v", 102, 167); // bP (w, cs)
+selectCodeEditor("main_menu.v", 102, 180); // bP (w, cs)
+selectCodeEditor("main_menu.v", 83, 149); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 134, 272); // bP (w, cs)
+selectCodeEditor("main_menu.v", 114, 266); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 169, 281); // bP (w, cs)
+selectCodeEditor("main_menu.v", 782, 233); // bP (w, cs)
+selectCodeEditor("main_menu.v", 170, 268); // bP (w, cs)
+selectCodeEditor("main_menu.v", 173, 268, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 173, 268); // bP (w, cs)
+// Elapsed time: 17 seconds
+selectCodeEditor("main_menu.v", 285, 264); // bP (w, cs)
+selectCodeEditor("main_menu.v", 345, 270); // bP (w, cs)
+selectCodeEditor("main_menu.v", 371, 268); // bP (w, cs)
+selectCodeEditor("main_menu.v", 422, 267); // bP (w, cs)
+selectCodeEditor("main_menu.v", 415, 263); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("main_menu.v", 536, 261); // bP (w, cs)
+selectCodeEditor("main_menu.v", 543, 263); // bP (w, cs)
+selectCodeEditor("main_menu.v", 527, 262); // bP (w, cs)
+// Elapsed time: 34 seconds
+selectCodeEditor("main_menu.v", 533, 267); // bP (w, cs)
+selectCodeEditor("main_menu.v", 650, 269); // bP (w, cs)
+selectCodeEditor("main_menu.v", 827, 266); // bP (w, cs)
+selectCodeEditor("main_menu.v", 830, 267, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 829, 266); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("main_menu.v", 477, 270); // bP (w, cs)
+selectCodeEditor("main_menu.v", 151, 277); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (v, C)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cD' command handler elapsed time: 5 seconds
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Dec 16 13:07:32 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 13:07:32 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 42 seconds
+selectCodeEditor("main_menu.v", 177, 238); // bP (w, cs)
+selectCodeEditor("main_menu.v", 175, 243); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 165 seconds
+selectCodeEditor("main_menu.v", 549, 241); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 244ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 40 seconds
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+selectCodeEditor("main_menu.v", 237, 277); // bP (w, cs)
+// Elapsed time: 16 seconds
+selectCodeEditor("main_menu.v", 750, 93); // bP (w, cs)
+// Elapsed time: 23 seconds
+selectCodeEditor("main_menu.v", 613, 174); // bP (w, cs)
+selectCodeEditor("main_menu.v", 493, 104); // bP (w, cs)
+selectCodeEditor("main_menu.v", 486, 139); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Dec 16 13:12:52 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 13:12:52 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+selectCodeEditor("main_menu.v", 498, 194); // bP (w, cs)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("main_menu.v", 33, 94); // bP (w, cs)
+// Elapsed time: 34 seconds
+selectCodeEditor("main_menu.v", 708, 102); // bP (w, cs)
+selectCodeEditor("main_menu.v", 705, 97); // bP (w, cs)
+selectCodeEditor("main_menu.v", 756, 96); // bP (w, cs)
+selectCodeEditor("main_menu.v", 584, 97); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("main_menu.v", 70, 132); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 64 seconds
+selectCodeEditor("main_menu.v", 289, 204); // bP (w, cs)
+selectCodeEditor("main_menu.v", 283, 183); // bP (w, cs)
+selectCodeEditor("main_menu.v", 282, 203); // bP (w, cs)
+selectCodeEditor("main_menu.v", 287, 181); // bP (w, cs)
+selectCodeEditor("main_menu.v", 282, 213); // bP (w, cs)
+selectCodeEditor("main_menu.v", 284, 191); // bP (w, cs)
+selectCodeEditor("main_menu.v", 284, 191); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3051A 
+// n (cs): Close Hardware Target: addNotify
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 25 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1498ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1500 ms.
+// Elapsed time: 128 seconds
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (ds, cs)
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 52 seconds
+selectCodeEditor("main_menu.v", 90, 162); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cD' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec 16 13:19:20 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 13:19:20 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF3051A 
+// n (cs): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 72 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 218ms to process. Increasing delay to 2000 ms.
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 158 seconds
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 100 seconds
+selectCodeEditor("main_menu.v", 91, 191); // bP (w, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1205 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 74 MB. Current time: 12/16/21, 1:24:57 PM PKT
+// Elapsed time: 21 seconds
+selectCodeEditor("main_menu.v", 83, 77); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 92, 176); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 156, 138); // bP (w, cs)
+selectCodeEditor("main_menu.v", 140, 156); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("main_menu.v", 608, 180); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("main_menu.v", 253, 178); // bP (w, cs)
+selectCodeEditor("main_menu.v", 350, 184); // bP (w, cs)
+selectCodeEditor("main_menu.v", 451, 182); // bP (w, cs)
+// Elapsed time: 42 seconds
+selectCodeEditor("main_menu.v", 220, 179); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 256, 183); // bP (w, cs)
+selectCodeEditor("main_menu.v", 262, 185); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 319, 182); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("main_menu.v", 530, 221); // bP (w, cs)
+selectCodeEditor("main_menu.v", 570, 180); // bP (w, cs)
+selectCodeEditor("main_menu.v", 554, 218); // bP (w, cs)
+selectCodeEditor("main_menu.v", 440, 178); // bP (w, cs)
+// Elapsed time: 23 seconds
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 536, 177); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectCodeEditor("main_menu.v", 109, 100); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("main_menu.v", 630, 114); // bP (w, cs)
+selectCodeEditor("main_menu.v", 632, 112); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 635, 114); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 734, 114); // bP (w, cs)
+selectCodeEditor("main_menu.v", 834, 115); // bP (w, cs)
+selectCodeEditor("main_menu.v", 850, 114); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 775, 116); // bP (w, cs)
+// Elapsed time: 26 seconds
+selectCodeEditor("main_menu.v", 20, 113); // bP (w, cs)
+selectCodeEditor("main_menu.v", 108, 164); // bP (w, cs)
+selectCodeEditor("main_menu.v", 108, 164, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("main_menu.v", 215, 163); // bP (w, cs)
+selectCodeEditor("main_menu.v", 434, 180); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectCodeEditor("main_menu.v", 497, 224); // bP (w, cs)
+selectCodeEditor("main_menu.v", 505, 182); // bP (w, cs)
+selectCodeEditor("main_menu.v", 496, 177); // bP (w, cs)
+selectCodeEditor("main_menu.v", 499, 178, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 540, 200); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec 16 13:29:50 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 13:29:50 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Completed: addNotify
+// Elapsed time: 247 seconds
+dismissDialog("Implementation Completed"); // ag (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 90 seconds
+selectCodeEditor("main_menu.v", 634, 145); // bP (w, cs)
+selectCodeEditor("main_menu.v", 638, 146, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("main_menu.v", 723, 139); // bP (w, cs)
+selectCodeEditor("main_menu.v", 723, 139, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 706, 200); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("main_menu.v", 310, 165); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("main_menu.v", 828, 163); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("main_menu.v", 83, 94); // bP (w, cs)
+selectCodeEditor("main_menu.v", 609, 129); // bP (w, cs)
+selectCodeEditor("main_menu.v", 85, 92); // bP (w, cs)
+selectCodeEditor("main_menu.v", 82, 164); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 57, 193); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 112, 195); // bP (w, cs)
+selectCodeEditor("main_menu.v", 465, 196); // bP (w, cs)
+typeControlKey(null, null, 'z');
+// Elapsed time: 16 seconds
+selectCodeEditor("main_menu.v", 247, 200); // bP (w, cs)
+selectCodeEditor("main_menu.v", 233, 199); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectCodeEditor("main_menu.v", 339, 195); // bP (w, cs)
+selectCodeEditor("main_menu.v", 260, 182); // bP (w, cs)
+selectCodeEditor("main_menu.v", 71, 148); // bP (w, cs)
+selectCodeEditor("main_menu.v", 100, 177); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("main_menu.v", 333, 197); // bP (w, cs)
+selectCodeEditor("main_menu.v", 333, 197); // bP (w, cs)
+selectCodeEditor("main_menu.v", 341, 198); // bP (w, cs)
+// Elapsed time: 27 seconds
+selectCodeEditor("main_menu.v", 355, 194); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("main_menu.v", 407, 213); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Dec 16 13:38:42 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 13:38:42 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 233 seconds
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 29 seconds
+selectCodeEditor("main_menu.v", 190, 228); // bP (w, cs)
+selectCodeEditor("main_menu.v", 189, 218); // bP (w, cs)
+selectCodeEditor("main_menu.v", 136, 217); // bP (w, cs)
+selectCodeEditor("main_menu.v", 138, 233); // bP (w, cs)
+selectCodeEditor("main_menu.v", 84, 131); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 137, 212); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 170, 213); // bP (w, cs)
+selectCodeEditor("main_menu.v", 163, 213); // bP (w, cs)
+selectCodeEditor("main_menu.v", 167, 213, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 167, 213); // bP (w, cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("main_menu.v", 433, 214); // bP (w, cs)
+// Elapsed time: 118 seconds
+selectCodeEditor("main_menu.v", 358, 220); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("main_menu.v", 575, 217); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 11 seconds
+selectCodeEditor("main_menu.v", 672, 221); // bP (w, cs)
+selectCodeEditor("main_menu.v", 674, 219); // bP (w, cs)
+selectCodeEditor("main_menu.v", 632, 213); // bP (w, cs)
+selectCodeEditor("main_menu.v", 735, 217); // bP (w, cs)
+selectCodeEditor("main_menu.v", 748, 221); // bP (w, cs)
+selectCodeEditor("main_menu.v", 748, 220); // bP (w, cs)
+selectCodeEditor("main_menu.v", 748, 214); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 741, 212); // bP (w, cs)
+selectCodeEditor("main_menu.v", 743, 213); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 695, 216); // bP (w, cs)
+selectCodeEditor("main_menu.v", 796, 209); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("main_menu.v", 729, 211); // bP (w, cs)
+selectCodeEditor("main_menu.v", 733, 212); // bP (w, cs)
+selectCodeEditor("main_menu.v", 726, 214); // bP (w, cs)
+selectCodeEditor("main_menu.v", 726, 214, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey(null, null, 'z');
+// Elapsed time: 11 seconds
+selectCodeEditor("main_menu.v", 365, 75); // bP (w, cs)
+selectCodeEditor("main_menu.v", 368, 76, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 368, 76); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("main_menu.v", 733, 214); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("main_menu.v", 765, 219); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("main_menu.v", 736, 206); // bP (w, cs)
+selectCodeEditor("main_menu.v", 818, 110); // bP (w, cs)
+selectCodeEditor("main_menu.v", 824, 111); // bP (w, cs)
+// Elapsed time: 30 seconds
+selectCodeEditor("main_menu.v", 689, 213); // bP (w, cs)
+selectCodeEditor("main_menu.v", 694, 214); // bP (w, cs)
+selectCodeEditor("main_menu.v", 788, 212); // bP (w, cs)
+selectCodeEditor("main_menu.v", 782, 213); // bP (w, cs)
+selectCodeEditor("main_menu.v", 767, 231); // bP (w, cs)
+selectCodeEditor("main_menu.v", 742, 195); // bP (w, cs)
+selectCodeEditor("main_menu.v", 745, 231); // bP (w, cs)
+selectCodeEditor("main_menu.v", 781, 151); // bP (w, cs)
+selectCodeEditor("main_menu.v", 767, 203); // bP (w, cs)
+selectCodeEditor("main_menu.v", 689, 215); // bP (w, cs)
+selectCodeEditor("main_menu.v", 692, 215); // bP (w, cs)
+selectCodeEditor("main_menu.v", 780, 109); // bP (w, cs)
+selectCodeEditor("main_menu.v", 743, 195); // bP (w, cs)
+selectCodeEditor("main_menu.v", 753, 167); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Dec 16 13:49:27 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 13:49:27 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1295 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 74 MB. Current time: 12/16/21, 1:54:57 PM PKT
+// Elapsed time: 481 seconds
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 266 seconds
+selectCodeEditor("main_menu.v", 329, 214); // bP (w, cs)
+// Elapsed time: 74 seconds
+selectCodeEditor("main_menu.v", 437, 212); // bP (w, cs)
+selectCodeEditor("main_menu.v", 438, 220); // bP (w, cs)
+selectCodeEditor("main_menu.v", 434, 212); // bP (w, cs)
+selectCodeEditor("main_menu.v", 443, 216); // bP (w, cs)
+selectCodeEditor("main_menu.v", 550, 217); // bP (w, cs)
+selectCodeEditor("main_menu.v", 649, 211); // bP (w, cs)
+selectCodeEditor("main_menu.v", 772, 213); // bP (w, cs)
+selectCodeEditor("main_menu.v", 663, 217); // bP (w, cs)
+selectCodeEditor("main_menu.v", 779, 212); // bP (w, cs)
+selectCodeEditor("main_menu.v", 791, 220); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec 16 14:04:11 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 14:04:11 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("main_menu.v", 85, 231); // bP (w, cs)
+selectCodeEditor("main_menu.v", 116, 232); // bP (w, cs)
+selectCodeEditor("main_menu.v", 513, 178); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 95, 233); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+// Elapsed time: 37 seconds
+selectCodeEditor("main_menu.v", 151, 245); // bP (w, cs)
+selectCodeEditor("main_menu.v", 164, 246); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("main_menu.v", 256, 246); // bP (w, cs)
+selectCodeEditor("main_menu.v", 393, 251); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 20 seconds
+selectCodeEditor("main_menu.v", 329, 249); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cs)
+// aU (cs): Cancel Implementation: addNotify
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aU)
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aU)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aU (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Dec 16 14:06:27 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 14:06:27 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("main_menu.v", 160, 232); // bP (w, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1062 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5716 ms. Increasing delay to 8000 ms.
+// Elapsed time: 80 seconds
+selectCodeEditor("main_menu.v", 228, 223); // bP (w, cs)
+selectCodeEditor("main_menu.v", 536, 255); // bP (w, cs)
+selectCodeEditor("main_menu.v", 538, 248); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 42 seconds
+selectCodeEditor("main_menu.v", 519, 253); // bP (w, cs)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 95 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cs): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bz (cs):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// A (cs): No Implementation Results Available: addNotify
+dismissDialog("Save Project"); // am (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cD' command handler elapsed time: 11 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Dec 16 14:10:23 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 14:10:23 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+selectCodeEditor("main_menu.v", 195, 271); // bP (w, cs)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("main_menu.v", 155, 278); // bP (w, cs)
+selectCodeEditor("main_menu.v", 159, 265); // bP (w, cs)
+selectCodeEditor("main_menu.v", 159, 267); // bP (w, cs)
+selectCodeEditor("main_menu.v", 85, 269); // bP (w, cs)
+selectCodeEditor("main_menu.v", 85, 269); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cs)
+// bz (cs):  Resetting Runs : addNotify
+selectButton("OptionPane.button", "Cancel Process"); // JButton (v, B)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+selectCodeEditor("main_menu.v", 262, 285); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // A (cs)
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Dec 16 14:10:56 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 14:10:56 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+selectCodeEditor("main_menu.v", 386, 260); // bP (w, cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 269 seconds
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 36 seconds
+selectCodeEditor("main_menu.v", 259, 254); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("main_menu.v", 168, 232); // bP (w, cs)
+// Elapsed time: 63 seconds
+selectCodeEditor("main_menu.v", 262, 250); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("main_menu.v", 276, 250); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 298, 248); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 376, 247); // bP (w, cs)
+selectCodeEditor("main_menu.v", 380, 247, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("main_menu.v", 470, 247); // bP (w, cs)
+selectCodeEditor("main_menu.v", 497, 249); // bP (w, cs)
+selectCodeEditor("main_menu.v", 586, 257); // bP (w, cs)
+selectCodeEditor("main_menu.v", 582, 244); // bP (w, cs)
+selectCodeEditor("main_menu.v", 752, 254); // bP (w, cs)
+selectCodeEditor("main_menu.v", 752, 253, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 752, 242); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 137, 266); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'v'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 174, 247); // bP (w, cs)
+selectCodeEditor("main_menu.v", 138, 247); // bP (w, cs)
+selectCodeEditor("main_menu.v", 138, 247, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 176, 245); // bP (w, cs)
+selectCodeEditor("main_menu.v", 139, 282); // bP (w, cs)
+selectCodeEditor("main_menu.v", 139, 282, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 193, 279); // bP (w, cs)
+selectCodeEditor("main_menu.v", 193, 279, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 182, 233); // bP (w, cs)
+selectCodeEditor("main_menu.v", 200, 277); // bP (w, cs)
+selectCodeEditor("main_menu.v", 206, 250); // bP (w, cs)
+selectCodeEditor("main_menu.v", 287, 263); // bP (w, cs)
+selectCodeEditor("main_menu.v", 401, 262); // bP (w, cs)
+selectCodeEditor("main_menu.v", 404, 262, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 404, 262); // bP (w, cs)
+selectCodeEditor("main_menu.v", 404, 262, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 68 seconds
+selectCodeEditor("main_menu.v", 507, 269); // bP (w, cs)
+selectCodeEditor("main_menu.v", 510, 269, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 504, 264); // bP (w, cs)
+selectCodeEditor("main_menu.v", 504, 264, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("main_menu.v", 542, 279); // bP (w, cs)
+selectCodeEditor("main_menu.v", 537, 257); // bP (w, cs)
+selectCodeEditor("main_menu.v", 536, 264); // bP (w, cs)
+selectCodeEditor("main_menu.v", 521, 280); // bP (w, cs)
+// Elapsed time: 17 seconds
+selectCodeEditor("main_menu.v", 164, 301); // bP (w, cs)
+selectCodeEditor("main_menu.v", 164, 301, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 258, 297); // bP (w, cs)
+selectCodeEditor("main_menu.v", 258, 297, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("main_menu.v", 371, 301); // bP (w, cs)
+selectCodeEditor("main_menu.v", 371, 301, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 390, 301); // bP (w, cs)
+selectCodeEditor("main_menu.v", 390, 301, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 485, 300); // bP (w, cs)
+selectCodeEditor("main_menu.v", 485, 300, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 637, 307); // bP (w, cs)
+selectCodeEditor("main_menu.v", 612, 287); // bP (w, cs)
+selectCodeEditor("main_menu.v", 613, 292); // bP (w, cs)
+selectCodeEditor("main_menu.v", 613, 292, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 719, 300); // bP (w, cs)
+selectCodeEditor("main_menu.v", 719, 300, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 618, 299); // bP (w, cs)
+selectCodeEditor("main_menu.v", 618, 299, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 603, 240); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec 16 14:21:13 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 14:21:13 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 165 seconds
+selectCodeEditor("main_menu.v", 410, 263); // bP (w, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  2549 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2049 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 74 MB. Current time: 12/16/21, 2:25:00 PM PKT
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 132 seconds
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 312 seconds
+selectCodeEditor("main_menu.v", 671, 181); // bP (w, cs)
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+selectCodeEditor("main_menu.v", 708, 245); // bP (w, cs)
+selectCodeEditor("main_menu.v", 107, 247); // bP (w, cs)
+selectCodeEditor("main_menu.v", 274, 215); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Dec 16 14:31:51 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 14:31:51 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 50 seconds
+selectCodeEditor("main_menu.v", 184, 217); // bP (w, cs)
+selectCodeEditor("main_menu.v", 181, 223); // bP (w, cs)
+selectCodeEditor("main_menu.v", 180, 219); // bP (w, cs)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Failed: addNotify
+// Elapsed time: 55 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_LOG_WINDOW, "View Log"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Implementation Failed"); // ag (cs)
+selectCodeEditor("main_menu.v", 262, 235); // bP (w, cs)
+// Elapsed time: 31 seconds
+selectCodeEditor("main_menu.v", 163, 275); // bP (w, cs)
+selectCodeEditor("main_menu.v", 90, 275); // bP (w, cs)
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Reset to Previous Step : addNotify
+dismissDialog("No Implementation Results Available"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+dismissDialog("Reset to Previous Step"); // bz (cs)
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Dec 16 14:35:02 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Failed: addNotify
+// Elapsed time: 106 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_MESSAGE_WINDOW, "View Messages"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ag (cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("main_menu.v", 93, 294); // bP (w, cs)
+selectCodeEditor("main_menu.v", 232, 296); // bP (w, cs)
+selectCodeEditor("main_menu.v", 246, 295); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("main_menu.v", 241, 258); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// 'cD' command handler elapsed time: 7 seconds
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+selectCodeEditor("main_menu.v", 60, 195); // bP (w, cs)
+selectCodeEditor("main_menu.v", 60, 195, false, false, false, false, true); // bP (w, cs) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 27 seconds
+selectCodeEditor("main_menu.v", 139, 253); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Dec 16 14:37:56 2021] Launched synth_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/runme.log [Thu Dec 16 14:37:56 2021] Launched impl_1... Run output will be captured here: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 142 seconds
+selectCodeEditor("main_menu.v", 10, 147); // bP (w, cs)
+selectCodeEditor("main_menu.v", 10, 147, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "main_menu.v", 'c'); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 177 seconds
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 33 seconds
+selectCodeEditor("main_menu.v", 273, 206); // bP (w, cs)
+// Elapsed time: 107 seconds
+selectCodeEditor("main_menu.v", 259, 229); // bP (w, cs)
+selectCodeEditor("main_menu.v", 3, 130); // bP (w, cs)
+selectCodeEditor("main_menu.v", 32, 152); // bP (w, cs)
+selectCodeEditor("main_menu.v", 94, 179); // bP (w, cs)
+selectCodeEditor("main_menu.v", 94, 179, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("main_menu.v", 94, 179); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("main_menu.v", 103, 182); // bP (w, cs)
+selectCodeEditor("main_menu.v", 103, 182); // bP (w, cs)
+selectCodeEditor("main_menu.v", 85, 56); // bP (w, cs)
+selectCodeEditor("main_menu.v", 434, 264); // bP (w, cs)
+selectCodeEditor("main_menu.v", 82, 312); // bP (w, cs)
+// Elapsed time: 80 seconds
+selectCodeEditor("main_menu.v", 323, 217); // bP (w, cs)
+// Elapsed time: 35 seconds
+selectCodeEditor("main_menu.v", 72, 42); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE

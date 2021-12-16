@@ -2,11 +2,11 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Sat Nov 27 12:58:25 2021
-# Process ID: 10420
-# Current directory: C:/Users/sudai/Downloads/project_1/project_1/project_1.runs/synth_1
+# Start of session at: Thu Dec 16 14:38:03 2021
+# Process ID: 21656
+# Current directory: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1
 # Command line: vivado.exe -log toplevelmodule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source toplevelmodule.tcl
-# Log file: C:/Users/sudai/Downloads/project_1/project_1/project_1.runs/synth_1/toplevelmodule.vds
-# Journal file: C:/Users/sudai/Downloads/project_1/project_1/project_1.runs/synth_1\vivado.jou
+# Log file: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/toplevelmodule.vds
+# Journal file: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source toplevelmodule.tcl -notrace

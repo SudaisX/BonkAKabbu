@@ -127,37 +127,28 @@ module pixel_gen(
       
         green <= video_on?(pixel_y > 480? 4'h0:4'h0):(4'h0);
       end
-
-//        blue <= video_on?(((pixel_x>287) & (pixel_x<313)) && (((pixel_y>227) & (pixel_y<253))) ? 4'hB:4'h0):(4'h0);
        else begin
-          blue <= video_on?((((pixel_x>112) & (pixel_x<138)) || ((pixel_x>287) & (pixel_x<313)) || ((pixel_x>462) & (pixel_x<484))) 
-      && (((pixel_y>82) & (pixel_y<108)) || ((pixel_y>227) & (pixel_y<253)) || ((pixel_y>372) & (pixel_y<398))) ? 4'hA:4'h0):(4'h0);
+          black <= video_on?( 
+          (
+            // M
+            ((pixel_x>20 & pixel_x<50) || (pixel_x>100 & pixel_x<130) || (pixel_x>170 & pixel_x<200) )  &  ((pixel_y>25 & pixel_y<440))
+            || // A I N
+            ((pixel_x>250 & pixel_x<280) || (pixel_x>330 & pixel_x<360) || (pixel_x>410 & pixel_x<440) || (pixel_x>490 & pixel_x<520) || (pixel_x>570 & pixel_x<600) )  &  ( (pixel_y>25 & pixel_y<200) )            
+            || // Top A I N Lines
+            ((pixel_x>20 & pixel_x<200) || (pixel_x>250 & pixel_x<360) || (pixel_x>490 & pixel_x<600) )  &  ((pixel_y>25 & pixel_y<65))
+            || // Mid A Line
+            (pixel_x>250 & pixel_x<360)  &  ((pixel_y>95 & pixel_y<125))
+            || // E N U
+            ((pixel_x>250 & pixel_x<280) || (pixel_x>360 & pixel_x<390) || (pixel_x>430 & pixel_x<460) || (pixel_x>500 & pixel_x<530) || (pixel_x>570 & pixel_x<600) )  &  ( (pixel_y>220 & pixel_y<440) )            
+            || // Top E N Line
+            ((pixel_x>250 & pixel_x<330) || (pixel_x>360 & pixel_x<460))  &  ((pixel_y>220 & pixel_y<250))
+            || // Mid E Line
+            ((pixel_x>250 & pixel_x<330))  &  ((pixel_y>315 & pixel_y<345))
+            || // Bottom E U Line
+            ((pixel_x>250 & pixel_x<330) || (pixel_x>500 & pixel_x<600))  &  ((pixel_y>410 & pixel_y<440))
+          ) ? 4'hF:4'h0):(4'h0);
           green <= video_on?(pixel_y > 480? 4'h0:4'h0):(4'h0);
-       end
-         
-
-//        black <= video_on?((pixel_x>75) & (pixel_x<175) & (pixel_x>250) & (pixel_x<350) & (pixel_y>45) & (pixel_y<145) & (pixel_y>190) & (pixel_y<290) ? 4'hF:4'h0):(4'h0);
-//      #5
-//      black <= video_on?((pixel_x>75) & (pixel_x<175) & (pixel_y>190) & (pixel_y<290) ? 4'hF:4'h0):(4'h0);
-//      #5
-//      black <= video_on?((pixel_x>75) & (pixel_x<175) & (pixel_y>335) & (pixel_y<435) ? 4'hF:4'h0):(4'h0);
-//      #5
-      
-//      black <= video_on?((pixel_x>250) & (pixel_x<350) & (pixel_y>45) & (pixel_y<145) ? 4'hF:4'h0):(4'h0);
-//      #5
-//      black <= video_on?((pixel_x>250) & (pixel_x<350) & (pixel_y>190) & (pixel_y<290) ? 4'hF:4'h0):(4'h0);
-//      #5
-//      black <= video_on?((pixel_x>250) & (pixel_x<350) & (pixel_y>335) & (pixel_y<435) ? 4'hF:4'h0):(4'h0);
-//      #5
-      
-//      black <= video_on?((pixel_x>425) & (pixel_x<525) & (pixel_y>45) & (pixel_y<145) ? 4'hF:4'h0):(4'h0);
-//      #5
-//      black <= video_on?((pixel_x>425) & (pixel_x<525) & (pixel_y>190) & (pixel_y<290) ? 4'hF:4'h0):(4'h0);
-//      #5
-//      black <= video_on?((pixel_x>425) & (pixel_x<525) & (pixel_y>335) & (pixel_y<435) ? 4'hF:4'h0):(4'h0);
-//      #5
-      
-      
+       end  
     end
   end
 endmodule

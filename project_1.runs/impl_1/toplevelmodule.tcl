@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/sudai/Downloads/project_1/project_1/project_1.runs/impl_1/toplevelmodule.tcl"
+  variable script "C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.tcl"
   variable category "vivado_impl"
 }
 
@@ -114,6 +114,7 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Common 17-41} -limit 10000000
 
 OPTRACE "Implementation" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }
@@ -129,15 +130,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/sudai/Downloads/project_1/project_1/project_1.cache/wt [current_project]
-  set_property parent.project_path C:/Users/sudai/Downloads/project_1/project_1/project_1.xpr [current_project]
-  set_property ip_output_repo C:/Users/sudai/Downloads/project_1/project_1/project_1.cache/ip [current_project]
+  set_property webtalk.parent_dir {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.cache/wt} [current_project]
+  set_property parent.project_path {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.xpr} [current_project]
+  set_property ip_output_repo {{C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/sudai/Downloads/project_1/project_1/project_1.runs/synth_1/toplevelmodule.dcp
+  add_files -quiet {{C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/synth_1/toplevelmodule.dcp}}
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/sudai/Downloads/project_1/project_1/project_1.srcs/constrs_1/new/test1.xdc
+  read_xdc {{C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/constrs_1/new/test1.xdc}}
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

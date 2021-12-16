@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/sudai/Downloads/project_1/project_1/project_1.srcs/constrs_1/new/test1.xdc rfile:../../../project_1.srcs/constrs_1/new/test1.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/constrs_1/new/test1.xdc} rfile:../../../project_1.srcs/constrs_1/new/test1.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN N19 [get_ports {black[3]}]
 set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]

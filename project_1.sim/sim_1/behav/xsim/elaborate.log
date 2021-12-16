@@ -6,12 +6,12 @@ Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Users/sudai/Downloads/project_1/project_1/project_1.srcs/sources_1/new/main_menu.v" Line 1. Module clk_div doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/sudai/Downloads/project_1/project_1/project_1.srcs/sources_1/new/main_menu.v" Line 30. Module h_counter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/sudai/Downloads/project_1/project_1/project_1.srcs/sources_1/new/main_menu.v" Line 56. Module v_counter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/sudai/Downloads/project_1/project_1/project_1.srcs/sources_1/new/main_menu.v" Line 1. Module clk_div doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/sudai/Downloads/project_1/project_1/project_1.srcs/sources_1/new/main_menu.v" Line 30. Module h_counter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/sudai/Downloads/project_1/project_1/project_1.srcs/sources_1/new/main_menu.v" Line 56. Module v_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sources_1/new/main_menu.v" Line 1. Module clk_div doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sources_1/new/main_menu.v" Line 30. Module h_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sources_1/new/main_menu.v" Line 56. Module v_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sources_1/new/main_menu.v" Line 1. Module clk_div doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sources_1/new/main_menu.v" Line 30. Module h_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sources_1/new/main_menu.v" Line 56. Module v_counter doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.clk_div
@@ -21,4 +21,3 @@ Compiling module xil_defaultlib.vga_sync
 Compiling module xil_defaultlib.pixel_gen
 Compiling module xil_defaultlib.toplevelmodule
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot toplevelmodule_behav

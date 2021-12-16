@@ -1,0 +1,5 @@
+ERROR: Exception caught trying to open file C:\Users\sudai\OneDrive - Habib University\University\Fall 21\Digital Logic Design\BonkAKabbu\project_1.runs\impl_1/runme.log
+See file C:\Users\sudai\OneDrive - Habib University\University\Fall 21\Digital Logic Design\BonkAKabbu\project_1.runs\impl_1/exception.log for details.
+C:\Users\sudai\OneDrive - Habib University\University\Fall 21\Digital Logic Design\BonkAKabbu\project_1.runs\impl_1\rundef.js(22, 1) Microsoft JScript runtime error: Permission denied
+
+CScript Error: Execution of the Windows Script Host failed. (0x80020102)
