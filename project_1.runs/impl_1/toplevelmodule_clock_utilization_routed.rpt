@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Thu Dec 16 14:41:33 2021
+| Date         : Fri Dec 17 09:02:24 2021
 | Host         : Sudais-Thinkpad running 64-bit major release  (build 9200)
 | Command      : report_clock_utilization -file toplevelmodule_clock_utilization_routed.rpt
 | Design       : toplevelmodule
@@ -66,12 +66,12 @@ Table of Contents
 4. Local Clock Details
 ----------------------
 
-+----------+-----------------+------------+-----------------+--------------+-------------+-----------------+--------------+-------+-----------------+--------+
-| Local Id | Driver Type/Pin | Constraint | Site/BEL        | Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock | Driver Pin      | Net    |
-+----------+-----------------+------------+-----------------+--------------+-------------+-----------------+--------------+-------+-----------------+--------||
-| 0        | FDRE/Q          | None       | SLICE_X1Y36/AFF | X0Y0         |          23 |               1 |              |       | cd/clk_d_reg/Q  | cd/CLK - Static -
-| 1        | FDRE/Q          | None       | SLICE_X3Y34/AFF | X0Y0         |          10 |               0 |              |       | hc/trig_v_reg/Q | hc/CLK - Static -
-+----------+-----------------+------------+-----------------+--------------+-------------+-----------------+--------------+-------+-----------------+--------||
++----------+-----------------+------------+-----------------+--------------+-------------+-----------------+--------------+-------+-----------------+----------------+
+| Local Id | Driver Type/Pin | Constraint | Site/BEL        | Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock | Driver Pin      | Net            |
++----------+-----------------+------------+-----------------+--------------+-------------+-----------------+--------------+-------+-----------------+----------------||
+| 0        | FDRE/Q          | None       | SLICE_X0Y34/AFF | X0Y0         |          23 |               1 |              |       | cd/clk_d_reg/Q  | cd/clk_d_reg_0 - Static -
+| 1        | FDRE/Q          | None       | SLICE_X4Y31/AFF | X0Y0         |          10 |               0 |              |       | hc/trig_v_reg/Q | hc/CLK         - Static -
++----------+-----------------+------------+-----------------+--------------+-------------+-----------------+--------------+-------+-----------------+----------------||
 * Local Clocks in this context represents only clocks driven by non-global buffers
 ** Clock Loads column represents the clock pin loads (pin count)
 *** Non-Clock Loads column represents the non-clock pin loads (pin count)

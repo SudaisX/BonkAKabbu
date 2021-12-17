@@ -1,0 +1,355 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Dec 16 11:23:14 2021
+# Process ID: 30860
+# Current directory: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39292 C:\Users\sudai\OneDrive - Habib University\University\Fall 21\Digital Logic Design\BonkAKabbu\project_1.xpr
+# Log file: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/vivado.log
+# Journal file: C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.xpr}
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+place_ports kabbu_pos R2
+set_property IOSTANDARD LVCMOS33 [get_ports [list kabbu_pos]]
+reset_run impl_1 -prev_step 
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+place_ports reset R2
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset]]
+save_constraints
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+launch_simulation
+launch_simulation
+source toplevelmodule.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sim_1/new/tbkabu.v} w ]
+add_files -fileset sim_1 {{C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sim_1/new/tbkabu.v}}
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sim_1/new/tbkabu.v}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sim_1/new/tbkabu.v}}
+close_sim
+launch_simulation
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+current_design impl_1
+place_ports clk R2
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+place_ports clk W5
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+refresh_design
+place_ports reset R2
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset]]
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.runs/impl_1/toplevelmodule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+launch_simulation
+source toplevelmodule.tcl
+add_bp {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sources_1/new/main_menu.v} 151
+remove_bps -file {C:/Users/sudai/OneDrive - Habib University/University/Fall 21/Digital Logic Design/BonkAKabbu/project_1.srcs/sources_1/new/main_menu.v} -line 151
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+close_sim
